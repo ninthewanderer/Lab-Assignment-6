@@ -5,17 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c4e9789-c6ba-40d1-b2a7-6468fc26fba2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/CelestialObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CelestialObject.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CreateForest.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CreateForest.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CreateGround.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/CreateGround.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Lab6.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Lab6.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pyramid.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Pyramid.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Lab 6 Project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Lab 6 Project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.testtools.codecoverage/Settings.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +95,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1771527666302</updated>
-      <workItem from="1771527693108" duration="647000" />
+      <workItem from="1771527693108" duration="1132000" />
     </task>
     <servers />
   </component>
