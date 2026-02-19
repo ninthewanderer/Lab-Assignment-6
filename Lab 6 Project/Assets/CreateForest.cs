@@ -18,6 +18,7 @@ public class CreateForest : MonoBehaviour
         {
             // The trees are represented as cylinders with varied heights.
             GameObject tree = GameObject.CreatePrimitive(PrimitiveType.Cylinder);
+            tree.name = "Tree " + (i + 1);
             tree.transform.localScale = new Vector3(0.25f, Random.Range(0.25f, 1f), 0.25f);
 
             // The more trees there are, the closer together they are.
