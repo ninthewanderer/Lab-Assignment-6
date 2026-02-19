@@ -11,6 +11,7 @@ public class CreateGround : MonoBehaviour
         GameObject ground = GameObject.CreatePrimitive(PrimitiveType.Plane);
         ground.name = "Ground";
         ground.transform.position = new Vector3(0, 0, 0);
+        ground.transform.localScale = Vector3.one * 2;
 
         // Gets the Renderer component from the ground.
         Renderer groundRenderer = ground.GetComponent<Renderer>();

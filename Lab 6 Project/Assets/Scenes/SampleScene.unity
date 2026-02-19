@@ -319,6 +319,7 @@ GameObject:
   - component: {fileID: 1987804154}
   - component: {fileID: 1987804153}
   - component: {fileID: 1987804155}
+  - component: {fileID: 1987804156}
   m_Layer: 0
   m_Name: Script Holder
   m_TagString: Untagged
@@ -365,8 +366,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f250c4e01577c0478f153d8baf7b6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forestSize: 5
-  stoneAmount: 0
+  forestSize: 15
+--- !u!114 &1987804156
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1987804152}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b74b04db7a94f1643aec9563a2d6d402, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stonesRequired: 5
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -23,11 +23,11 @@ public class CreateForest : MonoBehaviour
             // The more trees there are, the closer together they are.
             if (forestSize <= 5)
             {
-                tree.transform.position = new Vector3(Random.Range(-4.5f, -1.5f), (0 + tree.transform.localScale.y), Random.Range(-4.5f, -1.5f));
+                tree.transform.position = new Vector3(Random.Range(-9f, -3f), (0 + tree.transform.localScale.y), Random.Range(-9f, -3f));
             }
             else
             {
-                tree.transform.position = new Vector3(Random.Range(-4f, -2f), (0 + tree.transform.localScale.y), Random.Range(-4f, -2f));
+                tree.transform.position = new Vector3(Random.Range(-8f, -4f), (0 + tree.transform.localScale.y), Random.Range(-8f, -4f));
             }
 
             // Every even-numbered tree will be a different color.
