@@ -29,6 +29,7 @@
     ↳ Created GitHub repository & Unity project. <br>
     ↳ Created purple surface plane. <br>
     ↳ Created forest generation algorithm. <br>
+    ↳ Recorded showcase & updated README. <br>
     <br><br>
   </p>
 
