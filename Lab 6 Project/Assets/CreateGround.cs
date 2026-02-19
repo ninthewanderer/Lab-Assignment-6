@@ -7,13 +7,15 @@ public class CreateGround : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        // Creates the ground at the middle of the scene using a simple plane.
         GameObject ground = GameObject.CreatePrimitive(PrimitiveType.Plane);
         ground.transform.position = new Vector3(0, 0, 0);
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        // Gets the Renderer component from the ground.
+        Renderer groundRenderer = ground.GetComponent<Renderer>();
+
+        // Creates & sets the color for the ground.
+        ColorUtility.TryParseHtmlString("#986eba", out Color groundColor);
+        groundRenderer.material.SetColor("_Color", groundColor);
     }
 }
