@@ -55,6 +55,15 @@ public class Pyramid : MonoBehaviour
                     // Set the parent of the stone to the current layer
                     stone.transform.parent = layers[(int)height-1].transform;
                 }
+                // Set the color of the layer to a random color
+                Renderer[] renderer = layers[(int)height-1].GetComponentsInChildren<Renderer>();
+                Renderer layerRenderer = layers[(int)height-1].GetComponent<Renderer>();
+                layerRenderer.material.color = new Color(Random.value, Random.value, Random.value);
+                foreach (Renderer r in renderer)
+                {
+                    // Set the color of the stone to the same color as the layer
+                    r.material.color = layerRenderer.material.color;
+                }
             }
             // Set the position of the layer to the correct height
             layers[(int)height-1].transform.position = new Vector3(0f, height, 0f);
@@ -80,10 +89,6 @@ public class Pyramid : MonoBehaviour
 
         foreach (GameObject layer in layers)
         {
-            Renderer[] renderers = layer.GetComponentsInChildren<Renderer>();
-            renderers[0].material.SetColor("_Color", Color.red);
-            renderers[1].material.SetColor("_Color", Color.blue);
-            renderers[2].material.SetColor("_Color", Color.green);
             layer.transform.parent = pyramidParent.transform;
         }
     }
